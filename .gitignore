@@ -1,5 +1,9 @@
 *.iml
-.gradle
+# Gradle files
+.gradle/
+build/
+libs/*/build/
+.idea/
 /local.properties
 /.idea/caches
 /.idea/libraries
@@ -12,3 +16,4 @@
 /captures
 .externalNativeBuild
 .cxx
+/app/.gitignore
