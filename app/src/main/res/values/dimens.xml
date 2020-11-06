@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spacings -->
+    <dimen name="spacing_0.5x">4dp</dimen>
+    <dimen name="spacing_1x">8dp</dimen>
+    <dimen name="spacing_1.5x">12dp</dimen>
+    <dimen name="spacing_2x">16dp</dimen>
+    <dimen name="spacing_2.5x">20dp</dimen>
+    <dimen name="spacing_3x">24dp</dimen>
+    <dimen name="spacing_4x">32dp</dimen>
+
+    <dimen name="text_size_22">22sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+
+    <dimen name="fading_edge_length">80dp</dimen>
+</resources>

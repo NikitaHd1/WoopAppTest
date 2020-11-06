@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/selectionFragment">
+
+    <fragment
+        android:id="@+id/selectionFragment"
+        android:name="com.example.woopapp.fragments.selection.SelectionFragment"
+        android:label="SelectionFragment"
+        tools:layout="@layout/fragment_selection">
+
+        <action
+            android:id="@+id/toResults"
+            app:destination="@+id/resultsFragment"
+            app:popUpTo="@id/selectionFragment"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/resultsFragment"
+        android:name="com.example.woopapp.fragments.results.ResultsFragment"
+        android:label="ResultsFragment"
+        tools:layout="@layout/fragment_results">
+
+        <action
+            android:id="@+id/toSelection"
+            app:destination="@+id/selectionFragment"
+            app:popUpTo="@id/resultsFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

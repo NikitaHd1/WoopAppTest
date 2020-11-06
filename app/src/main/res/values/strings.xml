@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WoopApp</string>
+    <string name="task">Задание</string>
+    <string name="your_result">Ваш результат</string>
+    <string name="result">%s / %s</string>
+    <string name="wrong">Неверно</string>
+    <string name="correct">Верно</string>
+    <string name="try_again">Попробовать еще раз</string>
+</resources>

@@ -1,0 +1,47 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+    </style>
+
+    <style name="TextAppearance" parent="TextAppearance.AppCompat" />
+
+    <style name="TextAppearance.Title" parent="TextAppearance">
+        <item name="android:textSize">@dimen/text_size_22</item>
+        <item name="android:lineSpacingExtra">@dimen/spacing_1x</item>
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="TextAppearance.Title.White">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="TextAppearance.Title.Blue">
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+    <style name="TextAppearance.SubTitle">
+        <item name="android:textSize">@dimen/text_size_20</item>
+        <item name="android:lineSpacingExtra">@dimen/spacing_1x</item>
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/darkGray</item>
+    </style>
+
+    <style name="TextAppearance.BaseWhite">
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:lineSpacingExtra">@dimen/spacing_0.5x</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="TextAppearance.BaseWhite.Medium">
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="fontFamily">sans-serif-medium</item>
+    </style>
+
+</resources>

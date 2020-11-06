@@ -1,0 +1,55 @@
+{
+  "game_title": "Герои сериалов",
+  "game_items": [
+    {
+      "serial": "Игра Престолов",
+      "items": [
+        {
+          "name": "Джон Сноу",
+          "image": "1.John.jpg"
+        },
+        {
+          "name": "Давос",
+          "image": "4.Davos.jpg"
+        },
+        {
+          "name": "Семвел Тарли",
+          "image": "5.Semwell.jpg"
+        },
+        {
+          "name": "Мирцелла",
+          "image": "9.Mircella.jpg"
+        },
+        {
+          "name": "Лиана",
+          "image": "10.Liana.jpg"
+        }
+      ]
+    },
+    {
+      "serial": "Властелин Колец",
+      "items": [
+        {
+          "name": "Фродо Беггинс",
+          "image": "2.Frodo.jpg"
+        },
+        {
+          "name": "Эовин",
+          "image": "3.Eovin.jpg"
+        },
+        {
+          "name": "Арагорн",
+          "image": "6.Aragorn.jpg"
+        },
+        {
+          "name": "Арвен",
+          "image": "7.Arven.jpg"
+        },
+        {
+          "name": "Эомер",
+          "image": "8.Eomer.jpg"
+        }
+      ]
+    }
+  ]
+}
